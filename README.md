@@ -91,8 +91,8 @@ Final Price = Risk-Adjusted Price × Complexity Factor
 
 Thanks to the tools, libraries, and resources that made this project possible:
 
-- [Shadcn UI](https://ui.shadcn.com) — component primitives and design patterns
 - [Figma make](https://www.figma.com) — building and ui design
+- [Shadcn UI](https://ui.shadcn.com) — component primitives and design patterns
 - [Tailwind CSS](https://tailwindcss.com) — utility-first styling
 - [React](https://reactjs.org) — UI library
 - [Vercel](https://vercel.com) — deployment and hosting
