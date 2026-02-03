@@ -4,7 +4,6 @@
 ![Open issues](https://img.shields.io/github/issues/antomarinooo/baseline)
 ![Stars](https://img.shields.io/github/stars/antomarinooo/baseline?style=social)
 ![License](https://img.shields.io/github/license/antomarinooo/baseline)
-![Deployment](https://img.shields.io/website?down_color=red&down_message=down&up_color=green&up_message=online&url=https://baselineapp.figma.site)
 
 A responsive web application that helps freelancers calculate minimum acceptable project prices using structured inputs and deterministic logic. Baseline is a pricing decision system built for freelancers who want clarity, not guesswork. It calculates a defensible price baseline for any project using structured inputs like project type, scope, timeline pressure, revision model, experience level, and personal capacity.
 
@@ -35,43 +34,33 @@ Baseline provides a smart pricing calculator with three user tiers:
 - **Hosting**: Vercel
 
 ## Project Structure
+# Project Structure: Baseline
 
-```
-baseline/
-├── App.tsx                          # Main application component
-├── main.tsx                         # React entry point
-├── index.html                       # HTML template
-│
-├── components/
-│   ├── baseline/                    # Core UI components
-│   │   ├── Alert.tsx               # Alert messages (success/error/warning)
-│   │   ├── Footer.tsx              # Footer with links
-│   │   ├── SegmentedControl.tsx    # Toggle control component
-│   │   ├── Slider.tsx              # Range slider component
-│   │   ├── Tooltip.tsx             # Tooltip component
-│   │   └── Tutorial.tsx            # Tutorial overlay
-│   ├── CookieConsent.tsx           # Cookie consent banner
-│   ├── LanguageProvider.tsx        # i18n context provider
-│   ├── PrivacyModal.tsx            # Privacy policy modal
-│   └── TermsModal.tsx              # Terms of use modal
-│
-├── supabase/
-│   └── functions/
-│       └── server/
-│           ├── index.tsx           # Edge function (Hono server)
-│           └── kv_store.tsx        # Key-value storage utility
-│
-├── utils/
-│   ├── deviceFingerprint.ts        # Device identification
-│   └── supabase/
-│       ├── client.tsx              # Supabase client singleton
-│       └── info.tsx                # Supabase project configuration
-│
-├── imports/                         # SVG assets from Figma
-├── styles/
-│   └── globals.css                 # Global styles + Tailwind v4 config
-│
-└── [config files]                   # package.json, tsconfig, vite.config, etc.
+```mermaid
+graph TB
+    A[baseline/] --> B[App.tsx]
+    A --> C[main.tsx]
+    A --> D[index.html]
+
+    A --> E[components/]
+    E --> E1[baseline/]
+    E1 --> E1_1[Alert.tsx]
+    E1 --> E1_2[Footer.tsx]
+    E --> E2[CookieConsent.tsx]
+    E --> E3[TermsModal.tsx]
+
+    A --> F[supabase/]
+    F --> F1[functions/]
+    F1 --> F1_1[index.tsx]
+
+    A --> G[utils/]
+    G --> G1[deviceFingerprint.ts]
+    G --> G2[Supabase Config]
+
+    A --> H[styles/]
+    H --> H1[globals.css]
+
+    A --> I[config files]
 ```
 
 ## Key Components
