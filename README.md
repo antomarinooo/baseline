@@ -5,9 +5,15 @@
 ![Stars](https://img.shields.io/github/stars/antomarinooo/baseline?style=social)
 ![License](https://img.shields.io/github/license/antomarinooo/baseline)
 
-A responsive web application that helps freelancers calculate minimum acceptable project prices using structured inputs and deterministic logic. Baseline is a pricing decision system built for freelancers who want clarity, not guesswork. It calculates a defensible price baseline for any project using structured inputs like project type, scope, timeline pressure, revision model, experience level, and personal capacity.
+<div align="center">
+  <a href="https://baselineapp.figma.site/" target="_blank">
+    <img src="https://img.shields.io/badge/Open%20Baseline-Website-00A3FF?style=for-the-badge&logo=figma" alt="Open Baseline Website" />
+  </a>
+</div>
 
-Rather than telling you “what to charge,” Baseline defines the minimum price that makes sense for the work and your current availability. Anything below that line is no longer negotiable. The result is a clear boundary you can use to price confidently, explain your rates, and avoid underpricing without relying on vague intuition or generic market averages.
+A responsive web application that helps freelancers calculate minimum acceptable project prices using structured inputs and deterministic logic. Baseline is a pricing decision system built for free[...]  
+
+Rather than telling you “what to charge,” Baseline defines the minimum price that makes sense for the work and your current availability. Anything below that line is no longer negotiable. The [...]  
 
 ## Overview
 
