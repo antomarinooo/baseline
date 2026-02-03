@@ -1,0 +1,1 @@
+{"installCommand":"cd \"Baseline Pricing Tool Design/src\" && npm ci","buildCommand":"cd \"Baseline Pricing Tool Design/src\" && npm run build","outputDirectory":"Baseline Pricing Tool Design/src/dist","framework":"vite","rewrites":[{"source":"/(.*)","destination":"/index.html"}]}
